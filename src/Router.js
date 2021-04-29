@@ -11,8 +11,8 @@ class RouterComponent extends Component {
     return(
       <Router sceneStyle={{backgroundColor:"#FFF"}}>
         <Stack key="root">
-        	<Scene key="loginDemo" component={LoginDemo} hideNavBar={true}  title="Login Page" />
-        	<Scene key="userDashboard" component={UserDashboard} hideNavBar={true}  title="" initial/>
+        	<Scene key="loginDemo" component={LoginDemo} hideNavBar={true}  title="Login Page" initial/>
+        	<Scene key="userDashboard" component={UserDashboard} hideNavBar={true}  title="" />
         </Stack>
       </Router>
     );
