@@ -12,8 +12,8 @@ class LoginDemo extends Component{
 	constructor( props ){
 		super(props);
         this.state = {
-            username : "9816565205",
-            password : "9816565205",
+            username : "",
+            password : "",
             isLoading : false
         }
 	}
